@@ -1,12 +1,14 @@
 class Dog
 
   @@all = []
-
+  @@save = []
   attr_accessor :name
 
   def initialize(name)
     @name = name
     @@all << all
+    @@save = name
+    @@all << name
   end
 
   def self.all
