@@ -15,11 +15,6 @@ class Dog
   end
 
   def self.clear_all
-    @@all.clear 
-  end
-
-  def self.print_all
-    @@all = Hash.new(0)
-    @@all.each {|name| print}
+    @@all.clear
   end
 end
