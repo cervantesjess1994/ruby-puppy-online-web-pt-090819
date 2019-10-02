@@ -1,7 +1,6 @@
 class Dog
 
   @@all = []
-  @@save = []
 
   attr_accessor :name
 
