@@ -2,7 +2,7 @@ class Dog
 
   @@all = []
   @@save = []
-  
+
   attr_accessor :name
 
   def initialize(name)
